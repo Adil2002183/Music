@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+.navbar .navbar-brand{
+    color: hotpink;
+}
+.collapse ul li{
+    padding-right: 16px;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover{
+    color: yellow;
+}
+section {
+    padding-top: 80px;
+}
+section h3 {
+    padding-top: 60px;
+    font-weight: bold;
+}
+section hr{
+    width:5%;
+    height: 2px;
+    background-color: hotpink;
+    margin-left: 48%; 
+}
+.row{
+    padding-top: 30px;
+}
+.row i{
+    font-size: 25px;
+    color: hotpink;
+}
+#portfollio{
+    background-color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 50px;
+}
+#portfollio .row{
+    padding-top: 30px;
+}
+.space{
+    height: 80px;
+}
+#About{
+    padding-top: 50px;
+}
+.lead{
+    padding-top: 10px;
+}
+#border{
+    width:5%;
+    height: 2px;
+    background-color: hotpink;
+    margin-left: 48%; 
+}
+textarea{
+    margin-top: 10px;
+    resize: none;
+}
+.btn{
+   margin: 15px 0 0 45%;
+   color: hotpink;
+   border: 2px solid hotpink;
+}
+.btn:hover{
+    background: hotpink;
+}
+.form-control{
+    border: 2px solid hotpink;
+}
+footer{
+    background: hotpink;
+    padding: 10px;
+    margin-top: 30px;
+}
+footer .fa{
+    font-size: 20px;
+    padding: 10px;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:0px) and (max-width:576px) {
+    .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 300px;
+    }
+     section h3 {
+        font-weight: bold;
+        font-size: 20px
+}
+     section hr{
+        width:8%;
+        margin-left: 47%; 
+}
+    .row i{
+        font-size: 20px;
+}
+    .row h4{
+        font-size: 20px;
+}
+    .row1 img,.row2 img{
+        margin-top: 12px;
+        width: 100%;
+        height: 200PX;
+}
+    #portfollio .row1{
+    padding-top: 0px;
+}
+    #article1{
+    padding-top: 8%;
+}
+    #article1 h5{
+    font-size: 18px;
+ }
+    input{
+        margin-bottom: 10px;
+    }
+    .btn{
+        margin-left: 36%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+    
+@media (min-width:577px) and (max-width:992px) {
+    .carousel-inner .carousel-item img{
+        width: 100%;
+        height: 400px;
+  }
+    .row2 img,.row1 img{
+        margin: 10px;
+    }
+    #portfollio .row1{
+    padding-top: 0px;
+  }
+    #article1{
+    padding-top: 8%;
+ } 
+    .btn{
+        margin-left: 37%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+}
+@media (min-width:993px) and (max-width:1200px){
+    .btn{
+        margin-left: 42%;
+    }
+}
+
+@media (min-width:1200px) {
+    #article1{
+    padding-top: 2%;
+ }
+}
+
+
+
+
+
